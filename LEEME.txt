@@ -1,0 +1,34 @@
+JOSHEP ACADÉMICO
+Web estática en español. HTML, CSS y JavaScript, sin dependencias.
+
+ABRIR
+1. Extraé todo el ZIP.
+2. Abrí index.html en Chrome, Edge, Firefox o Safari.
+No necesitás instalar nada. No requiere internet para mostrar el diseño.
+
+ARCHIVOS
+index.html  — Contenido, secciones y formulario.
+styles.css  — Colores, tipografía y diseño adaptable a celulares.
+script.js   — Menú móvil, selección de servicio y preparación de consultas.
+config.js   — Número de WhatsApp.
+
+CONECTAR EL WHATSAPP
+No se inventó un número de contacto. En config.js, reemplazá las comillas
+vacías de whatsapp por el número real de Joshep con código de país,
+sin espacios ni el signo +. Para Costa Rica, 506 seguido de 8 dígitos.
+Guardá el archivo y recargá la página. El formulario abrirá WhatsApp
+con el mensaje preparado; el visitante decide si lo envía.
+Mientras el número esté vacío, el formulario permite preparar y copiar
+una consulta, pero no envía nada. No hay servidor ni almacenamiento de datos.
+El copiado usa el portapapeles cuando está disponible y selección manual
+como alternativa al abrir el archivo localmente.
+
+PERSONALIZAR
+Editá los textos en index.html y los colores al inicio de styles.css.
+Confirmá con Joshep los servicios y el contenido antes de publicar.
+No se incluyeron precios, credenciales ni reseñas inventadas.
+
+PUBLICAR
+Subí index.html, styles.css, script.js y config.js juntos a un hosting
+estático. Mantené los nombres y la misma carpeta. No requiere PHP,
+bases de datos, npm ni compilación. Este ZIP no publica la web por sí solo.
